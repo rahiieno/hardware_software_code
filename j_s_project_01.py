@@ -1,4 +1,13 @@
 def main():
+    print("Answer 'Yes' or 'No' ")
+    safety = input("Would you like to answer a few questions? ")
+    if safety == "Yes":
+        print("Perfect!!")
+    elif safety == "No":
+        print("That's okay, thank you for your time.")
+    else:
+        print("Please only answer 'Yes' or 'No'")
+
     print("I would like to get to know you better.")
     print("It would make me happy if you could answer a few questions")
     name = input("What is your name? ")
@@ -22,7 +31,7 @@ def main():
         print(f"Do forgive me {name}, I will remember that better in the future.")
     else:
         print("What do you mean?")
-        
+    
 
 if __name__ == "__main__":
     main()
