@@ -9,23 +9,23 @@ def asking_questions():
         return count, name
     
     while True:
-        question_2 = input(f"Where are you from, {name}? ").strip()
+        question_1 = input(f"Where are you from, {name}? ").strip()
+        if 'exit' in question_1.lower():
+            break
+        count += 1
+
+        question_2 = input(f"What college do you attend, {name}? ").strip()
         if 'exit' in question_2.lower():
             break
         count += 1
 
-        question_3 = input(f"What college do you attend, {name}? ").strip()
+        question_3 = input(f"What highschool did you attend, {name}? ").strip()
         if 'exit' in question_3.lower():
             break
         count += 1
 
-        question_4 = input(f"What highschool did you attend, {name}? ")
+        question_4 = input(f"What institution is more fun, {name}? ").strip()
         if 'exit' in question_4.lower():
-            break
-        count += 1
-
-        question_5 = input(f"What institution is more fun, {name}? ")
-        if 'exit' in question_5.lower():
             break
         count += 1
 

@@ -1,5 +1,5 @@
 def main():
-    name = "Professor Nedd"
+    name = "Rahieno"
     print("We want to know if you like programming!")
     print()
     print("Do you like programming {}?".format(name))
