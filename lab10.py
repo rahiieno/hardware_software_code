@@ -1,5 +1,5 @@
 def main():
-    print("This program adds two numbers under 100.")
+    print("This program adds two numbers under 1000.")
     print("I will continue to ask what numbers you would like to add until you say 'exit'. ")
 
     while True:
@@ -20,7 +20,7 @@ def main():
             print("Enter a valid number. ")
             continue
 
-        if num1 > 99 or num2 > 99:
+        if num1 > 999 or num2 > 999:
             print("Number too big.")
             continue
 
